@@ -14,11 +14,11 @@ const AppBarTab = ({ text, path }) => {
   return (
     <View>
       <Pressable>
-       <Link to={path}>
-        <Text style={styles.text} fontWeight='bold' color='textSecondary'>
-          {text}
-        </Text>
-      </Link>
+        <Link to={path}>
+          <Text style={styles.text} fontWeight='bold' color='textSecondary'>
+            {text}
+          </Text>
+        </Link>
       </Pressable>
     </View>
   )

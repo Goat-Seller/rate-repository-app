@@ -6,6 +6,7 @@ import AppBar from './AppBar'
 import RepositoryList from './RepositoryList'
 import SignIn from './SignIn'
 
+
 const styles = StyleSheet.create({
   container: {
     backgroundColor: theme.colors.mainBackground,
