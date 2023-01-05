@@ -6,7 +6,6 @@ import { Link } from 'react-router-native'
 const styles = StyleSheet.create({
   text: {
     padding: 15,
-    fontSize: 24,
   },
 })
 
@@ -15,7 +14,11 @@ const AppBarTab = ({ text, path }) => {
     <View>
       <Pressable>
         <Link to={path}>
-          <Text style={styles.text} fontWeight='bold' color='textSecondary'>
+          <Text
+            style={styles.text}
+            fontSize='tab'
+            fontWeight='bold'
+            color='textSecondary'>
             {text}
           </Text>
         </Link>

@@ -11,10 +11,11 @@ const SignOut = () => {
           signOut()
         }}>
         <Text
-          style={{ padding: 15, fontSize: 24 }}
+          style={{ padding: 15 }}
           fontWeight='bold'
+          fontSize='tab'
           color='textSecondary'>
-          Sign Out
+          Sign out
         </Text>
       </Pressable>
     </View>
